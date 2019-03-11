@@ -1,6 +1,6 @@
 {
   "electron-tsc": "tsc main.ts && ng build --base-href ./ && electron .",
-  "compileOnSave": false,
+  "compileOnSave": true,
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
